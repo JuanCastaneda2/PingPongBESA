@@ -45,7 +45,7 @@ public class Guarda_Saque extends GuardBESA{
         Ping ping = new Ping(estado.getGolpes());
         EventBESA ev = new EventBESA(Guarda_Respuesta.class.getName(), ping);
         try {
-            Delay();
+            //Delay();
             ah.sendEvent(ev);
             System.out.println("Ping");
         } catch (ExceptionBESA e) {

@@ -49,7 +49,7 @@ public class Guarda_Punto extends GuardBESA {
                 System.out.println("\n Nuevo punto \n");
                 
                 System.out.println("Saque");
-                Delay();
+                //Delay();
                 ah.sendEvent(ev);
             } catch (ExceptionBESA e) {
                 e.printStackTrace();

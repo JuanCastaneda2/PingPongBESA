@@ -39,7 +39,7 @@ public class PingPong {
             try {
                 System.out.println("\n Nuevo juego \n");
                 System.out.println("Saque");
-                Delay();
+                //Delay();
                 ah.sendEvent(ev);
             } catch (ExceptionBESA e) {
                 e.printStackTrace();

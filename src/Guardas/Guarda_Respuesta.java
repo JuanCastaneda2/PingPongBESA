@@ -73,7 +73,7 @@ public class Guarda_Respuesta extends GuardBESA {
             ev = new EventBESA(Guarda_Punto.class.getName(), respuesta);
         }
         try {
-            Delay();
+            //Delay();
             ah.sendEvent(ev);
         } catch (ExceptionBESA e) {
             e.printStackTrace();

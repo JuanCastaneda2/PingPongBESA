@@ -3,7 +3,7 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package ejpingpong;
+package Ejpingpong;
 
 import Agentes.Ag_PingPong;
 import Agentes.Estado_Ag_PingPong;
